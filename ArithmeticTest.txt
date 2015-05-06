@@ -1,0 +1,17 @@
+package in.co.javatutorials;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ArithmeticTest {
+
+	@Test
+	public void testAdd() {
+		Arithmetic arithmetic = new Arithmetic();
+		int actualResult = arithmetic.add(4, 2);
+		int expectedResult = 6;
+		assertEquals(expectedResult,actualResult);
+	}
+
+}
